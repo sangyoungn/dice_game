@@ -28,4 +28,5 @@ This work is electronic dice game implemented with LEDs.
 * schematic.pdf
 * connection+diagram.pdf
   * Component connection diagram
+* LICENSE
 
