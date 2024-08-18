@@ -88,7 +88,7 @@ class Dice_Game:
         previous_number = 0 # Need to remember previously generated random number
         for i in range(iter):
             random_number = random.randint(1,6) # Generate a random number between 1 and 6
-            while random_number == previous_number and random_number + previous_number == 6:
+            while random_number == previous_number or random_number + previous_number == 7:
                 # Cannot be same as previous generated number
                 # A real dice roll shouldn't show the numbers on opposite sides in sequence.
                 random_number = random.randint(1,6)
